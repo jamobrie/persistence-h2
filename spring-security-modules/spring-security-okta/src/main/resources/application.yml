@@ -1,0 +1,13 @@
+server:
+  port: 8086
+
+okta:
+  oauth2:
+    issuer: https://dev-34978899.okta.com/oauth2/default
+    client-id: 0oa3lwtqt1tcJ7CSh5d7
+    client-secret: GB9qqoD_F1kATzf_IZCDvjCGTBow9q0_Zk0ds4_w
+    redirect-uri: /authorization-code/callback
+    scopes: openid
+  client:
+    orgUrl: https://dev-34978899.okta.com
+    token: 00S6K1LvDkdpENM7PMD8La0Y6u_PA-R0QyAz2w2-AC
